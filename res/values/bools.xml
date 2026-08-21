@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="b7t">true</bool>
+    <bool name="b7u">true</bool>
+    <bool name="b7v">false</bool>
+    <bool name="b7w">true</bool>
+    <bool name="b7x">true</bool>
+    <bool name="b7y">false</bool>
+    <bool name="b7z">true</bool>
+    <bool name="b80">true</bool>
+    <bool name="b81">false</bool>
+    <bool name="b82">false</bool>
+    <bool name="b83">true</bool>
+    <bool name="b84">true</bool>
+    <bool name="b85">false</bool>
+    <bool name="b86">true</bool>
+    <bool name="b87">false</bool>
+    <bool name="b88">false</bool>
+    <bool name="b89">false</bool>
+</resources>

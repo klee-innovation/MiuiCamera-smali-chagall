@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/black" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_horizontal" android:id="@id/lottie_view" android:layout_width="@dimen/buw" android:layout_height="@dimen/buw" android:scaleType="centerInside" />
+    <TextView android:textSize="@dimen/bv2" android:textColor="@color/white_alpha_40" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/selfie_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fe2" android:layout_marginStart="@dimen/bv4" android:layout_marginEnd="@dimen/bv4" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/arrow_root" android:paddingTop="@dimen/bv5" android:paddingBottom="@dimen/bv5" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bv3" android:paddingStart="@dimen/bv4" android:paddingEnd="@dimen/bv4">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/arrow" android:layout_width="@dimen/bus" android:layout_height="@dimen/bus" android:elevation="2.0dip" />
+        <com.android.camera.fragment.presentation.LinearGradientSlideView android:id="@id/slide_mask" android:layout_width="@dimen/but" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/bux" android:elevation="1.0dip" />
+        <com.android.camera.ui.ScrollTextview android:textSize="@dimen/bv2" android:textColor="@color/white" android:ellipsize="marquee" android:id="@id/slide_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/buz" android:text="@string/fe1" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:layout_marginEnd="@dimen/buy" />
+    </LinearLayout>
+</FrameLayout>

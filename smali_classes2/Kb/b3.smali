@@ -1,0 +1,335 @@
+.class public final LKb/b3;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LQc/d;
+
+
+# static fields
+.field public static final a:LKb/b3;
+
+.field public static final b:LQc/c;
+
+.field public static final c:LQc/c;
+
+.field public static final d:LQc/c;
+
+.field public static final e:LQc/c;
+
+.field public static final f:LQc/c;
+
+.field public static final g:LQc/c;
+
+.field public static final h:LQc/c;
+
+.field public static final i:LQc/c;
+
+.field public static final j:LQc/c;
+
+.field public static final k:LQc/c;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 4
+
+    new-instance v0, LKb/b3;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    sput-object v0, LKb/b3;->a:LKb/b3;
+
+    new-instance v0, LKb/q0;
+
+    const/4 v1, 0x1
+
+    invoke-direct {v0, v1}, LKb/q0;-><init>(I)V
+
+    const-class v1, LKb/u0;
+
+    invoke-static {v1, v0}, LKb/w0;->d(Ljava/lang/Class;LKb/q0;)Ljava/util/HashMap;
+
+    move-result-object v0
+
+    new-instance v2, LQc/c;
+
+    invoke-static {v0}, LFa/q;->e(Ljava/util/HashMap;)Ljava/util/Map;
+
+    move-result-object v0
+
+    const-string v3, "durationMs"
+
+    invoke-direct {v2, v3, v0}, LQc/c;-><init>(Ljava/lang/String;Ljava/util/Map;)V
+
+    sput-object v2, LKb/b3;->b:LQc/c;
+
+    new-instance v0, LKb/q0;
+
+    const/4 v2, 0x2
+
+    invoke-direct {v0, v2}, LKb/q0;-><init>(I)V
+
+    invoke-static {v1, v0}, LKb/w0;->d(Ljava/lang/Class;LKb/q0;)Ljava/util/HashMap;
+
+    move-result-object v0
+
+    new-instance v2, LQc/c;
+
+    invoke-static {v0}, LFa/q;->e(Ljava/util/HashMap;)Ljava/util/Map;
+
+    move-result-object v0
+
+    const-string v3, "errorCode"
+
+    invoke-direct {v2, v3, v0}, LQc/c;-><init>(Ljava/lang/String;Ljava/util/Map;)V
+
+    sput-object v2, LKb/b3;->c:LQc/c;
+
+    new-instance v0, LKb/q0;
+
+    const/4 v2, 0x3
+
+    invoke-direct {v0, v2}, LKb/q0;-><init>(I)V
+
+    invoke-static {v1, v0}, LKb/w0;->d(Ljava/lang/Class;LKb/q0;)Ljava/util/HashMap;
+
+    move-result-object v0
+
+    new-instance v2, LQc/c;
+
+    invoke-static {v0}, LFa/q;->e(Ljava/util/HashMap;)Ljava/util/Map;
+
+    move-result-object v0
+
+    const-string v3, "isColdCall"
+
+    invoke-direct {v2, v3, v0}, LQc/c;-><init>(Ljava/lang/String;Ljava/util/Map;)V
+
+    sput-object v2, LKb/b3;->d:LQc/c;
+
+    new-instance v0, LKb/q0;
+
+    const/4 v2, 0x4
+
+    invoke-direct {v0, v2}, LKb/q0;-><init>(I)V
+
+    invoke-static {v1, v0}, LKb/w0;->d(Ljava/lang/Class;LKb/q0;)Ljava/util/HashMap;
+
+    move-result-object v0
+
+    new-instance v2, LQc/c;
+
+    invoke-static {v0}, LFa/q;->e(Ljava/util/HashMap;)Ljava/util/Map;
+
+    move-result-object v0
+
+    const-string v3, "autoManageModelOnBackground"
+
+    invoke-direct {v2, v3, v0}, LQc/c;-><init>(Ljava/lang/String;Ljava/util/Map;)V
+
+    sput-object v2, LKb/b3;->e:LQc/c;
+
+    new-instance v0, LKb/q0;
+
+    const/4 v2, 0x5
+
+    invoke-direct {v0, v2}, LKb/q0;-><init>(I)V
+
+    invoke-static {v1, v0}, LKb/w0;->d(Ljava/lang/Class;LKb/q0;)Ljava/util/HashMap;
+
+    move-result-object v0
+
+    new-instance v2, LQc/c;
+
+    invoke-static {v0}, LFa/q;->e(Ljava/util/HashMap;)Ljava/util/Map;
+
+    move-result-object v0
+
+    const-string v3, "autoManageModelOnLowMemory"
+
+    invoke-direct {v2, v3, v0}, LQc/c;-><init>(Ljava/lang/String;Ljava/util/Map;)V
+
+    sput-object v2, LKb/b3;->f:LQc/c;
+
+    new-instance v0, LKb/q0;
+
+    const/4 v2, 0x6
+
+    invoke-direct {v0, v2}, LKb/q0;-><init>(I)V
+
+    invoke-static {v1, v0}, LKb/w0;->d(Ljava/lang/Class;LKb/q0;)Ljava/util/HashMap;
+
+    move-result-object v0
+
+    new-instance v2, LQc/c;
+
+    invoke-static {v0}, LFa/q;->e(Ljava/util/HashMap;)Ljava/util/Map;
+
+    move-result-object v0
+
+    const-string v3, "isNnApiEnabled"
+
+    invoke-direct {v2, v3, v0}, LQc/c;-><init>(Ljava/lang/String;Ljava/util/Map;)V
+
+    sput-object v2, LKb/b3;->g:LQc/c;
+
+    new-instance v0, LKb/q0;
+
+    const/4 v2, 0x7
+
+    invoke-direct {v0, v2}, LKb/q0;-><init>(I)V
+
+    invoke-static {v1, v0}, LKb/w0;->d(Ljava/lang/Class;LKb/q0;)Ljava/util/HashMap;
+
+    move-result-object v0
+
+    new-instance v2, LQc/c;
+
+    invoke-static {v0}, LFa/q;->e(Ljava/util/HashMap;)Ljava/util/Map;
+
+    move-result-object v0
+
+    const-string v3, "eventsCount"
+
+    invoke-direct {v2, v3, v0}, LQc/c;-><init>(Ljava/lang/String;Ljava/util/Map;)V
+
+    sput-object v2, LKb/b3;->h:LQc/c;
+
+    new-instance v0, LKb/q0;
+
+    const/16 v2, 0x8
+
+    invoke-direct {v0, v2}, LKb/q0;-><init>(I)V
+
+    invoke-static {v1, v0}, LKb/w0;->d(Ljava/lang/Class;LKb/q0;)Ljava/util/HashMap;
+
+    move-result-object v0
+
+    new-instance v2, LQc/c;
+
+    invoke-static {v0}, LFa/q;->e(Ljava/util/HashMap;)Ljava/util/Map;
+
+    move-result-object v0
+
+    const-string v3, "otherErrors"
+
+    invoke-direct {v2, v3, v0}, LQc/c;-><init>(Ljava/lang/String;Ljava/util/Map;)V
+
+    sput-object v2, LKb/b3;->i:LQc/c;
+
+    new-instance v0, LKb/q0;
+
+    const/16 v2, 0x9
+
+    invoke-direct {v0, v2}, LKb/q0;-><init>(I)V
+
+    invoke-static {v1, v0}, LKb/w0;->d(Ljava/lang/Class;LKb/q0;)Ljava/util/HashMap;
+
+    move-result-object v0
+
+    new-instance v2, LQc/c;
+
+    invoke-static {v0}, LFa/q;->e(Ljava/util/HashMap;)Ljava/util/Map;
+
+    move-result-object v0
+
+    const-string v3, "remoteConfigValueForAcceleration"
+
+    invoke-direct {v2, v3, v0}, LQc/c;-><init>(Ljava/lang/String;Ljava/util/Map;)V
+
+    sput-object v2, LKb/b3;->j:LQc/c;
+
+    new-instance v0, LKb/q0;
+
+    const/16 v2, 0xa
+
+    invoke-direct {v0, v2}, LKb/q0;-><init>(I)V
+
+    invoke-static {v1, v0}, LKb/w0;->d(Ljava/lang/Class;LKb/q0;)Ljava/util/HashMap;
+
+    move-result-object v0
+
+    new-instance v1, LQc/c;
+
+    invoke-static {v0}, LFa/q;->e(Ljava/util/HashMap;)Ljava/util/Map;
+
+    move-result-object v0
+
+    const-string v2, "isAccelerated"
+
+    invoke-direct {v1, v2, v0}, LQc/c;-><init>(Ljava/lang/String;Ljava/util/Map;)V
+
+    sput-object v1, LKb/b3;->k:LQc/c;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/Object;Ljava/lang/Object;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    check-cast p1, LKb/d6;
+
+    check-cast p2, LQc/e;
+
+    iget-object p0, p1, LKb/d6;->a:Ljava/lang/Long;
+
+    sget-object v0, LKb/b3;->b:LQc/c;
+
+    invoke-interface {p2, v0, p0}, LQc/e;->c(LQc/c;Ljava/lang/Object;)LQc/e;
+
+    sget-object p0, LKb/b3;->c:LQc/c;
+
+    iget-object v0, p1, LKb/d6;->b:LKb/o6;
+
+    invoke-interface {p2, p0, v0}, LQc/e;->c(LQc/c;Ljava/lang/Object;)LQc/e;
+
+    sget-object p0, LKb/b3;->d:LQc/c;
+
+    iget-object v0, p1, LKb/d6;->c:Ljava/lang/Boolean;
+
+    invoke-interface {p2, p0, v0}, LQc/e;->c(LQc/c;Ljava/lang/Object;)LQc/e;
+
+    sget-object p0, LKb/b3;->e:LQc/c;
+
+    iget-object v0, p1, LKb/d6;->d:Ljava/lang/Boolean;
+
+    invoke-interface {p2, p0, v0}, LQc/e;->c(LQc/c;Ljava/lang/Object;)LQc/e;
+
+    sget-object p0, LKb/b3;->f:LQc/c;
+
+    iget-object p1, p1, LKb/d6;->e:Ljava/lang/Boolean;
+
+    invoke-interface {p2, p0, p1}, LQc/e;->c(LQc/c;Ljava/lang/Object;)LQc/e;
+
+    sget-object p0, LKb/b3;->g:LQc/c;
+
+    const/4 p1, 0x0
+
+    invoke-interface {p2, p0, p1}, LQc/e;->c(LQc/c;Ljava/lang/Object;)LQc/e;
+
+    sget-object p0, LKb/b3;->h:LQc/c;
+
+    invoke-interface {p2, p0, p1}, LQc/e;->c(LQc/c;Ljava/lang/Object;)LQc/e;
+
+    sget-object p0, LKb/b3;->i:LQc/c;
+
+    invoke-interface {p2, p0, p1}, LQc/e;->c(LQc/c;Ljava/lang/Object;)LQc/e;
+
+    sget-object p0, LKb/b3;->j:LQc/c;
+
+    invoke-interface {p2, p0, p1}, LQc/e;->c(LQc/c;Ljava/lang/Object;)LQc/e;
+
+    sget-object p0, LKb/b3;->k:LQc/c;
+
+    invoke-interface {p2, p0, p1}, LQc/e;->c(LQc/c;Ljava/lang/Object;)LQc/e;
+
+    return-void
+.end method

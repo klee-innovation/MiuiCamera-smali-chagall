@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cxt">156.88dip</dimen>
+    <dimen name="dbg">85.0dip</dimen>
+    <dimen name="dbl">9.0dip</dimen>
+    <dimen name="dw_">34.0dip</dimen>
+</resources>

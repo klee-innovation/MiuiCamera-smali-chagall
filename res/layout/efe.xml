@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="@integer/e11" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/efg" />
+    <LinearLayout android:orientation="vertical" android:id="@id/mtrl_calendar_main_pane" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <androidx.fragment.app.FragmentContainerView android:id="@id/mtrl_calendar_frame" android:paddingLeft="@dimen/ct4" android:paddingRight="@dimen/ct4" android:paddingBottom="@dimen/ct3" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="@dimen/ct4" android:paddingEnd="@dimen/ct4" />
+        <include android:layout_width="fill_parent" android:layout_height="@dimen/ct1" layout="@layout/efd" />
+    </LinearLayout>
+</LinearLayout>

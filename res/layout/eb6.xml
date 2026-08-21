@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/effect_close_item" android:layout_width="@dimen/d7r" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/d7r" android:layout_height="@dimen/d88">
+        <com.android.camera.ui.NormalRoundView android:gravity="center" android:layout_gravity="center" android:focusable="false" android:clipChildren="false" android:layout_width="@dimen/d7q" android:layout_height="@dimen/d87" app:ao9="@dimen/d7y">
+            <ImageView android:layout_gravity="center" android:id="@id/item_image_view" android:layout_width="@dimen/d7q" android:layout_height="@dimen/d87" android:scaleType="fitXY" android:layout_centerInParent="true" android:contentDescription="@null" />
+            <com.airbnb.lottie.LottieAnimationView android:layout_gravity="end|bottom|center" android:id="@id/live_item_state" android:visibility="gone" android:layout_width="@dimen/dt1" android:layout_height="@dimen/dt1" android:scaleType="centerInside" />
+            <ProgressBar android:layout_gravity="end|bottom|center" android:id="@id/live_item_loading" android:visibility="gone" android:layout_width="@dimen/dt1" android:layout_height="@dimen/dt1" android:indeterminateDrawable="@drawable/vv_download_progress" style="?android:progressBarStyleLarge" />
+        </com.android.camera.ui.NormalRoundView>
+        <ImageView android:layout_gravity="center" android:id="@id/item_selected_indicator" android:visibility="gone" android:layout_width="@dimen/d7r" android:layout_height="@dimen/d88" android:src="@drawable/effect_filter_item_selector" android:contentDescription="@null" app:ao9="@dimen/d7y" />
+    </FrameLayout>
+    <com.android.camera.ui.AdaptiveTextView android:textSize="@dimen/d80" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:id="@id/name_text_view" android:layout_width="@dimen/d7q" android:layout_height="wrap_content" android:layout_marginTop="@dimen/d8c" android:maxLines="2" android:shadowColor="@color/alpha24_black" android:shadowRadius="@dimen/d8_" />
+</LinearLayout>

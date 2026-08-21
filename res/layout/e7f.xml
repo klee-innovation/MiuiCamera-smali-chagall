@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="end" android:id="@id/thumbnail_container" android:focusable="false" android:clipChildren="false" android:layout_width="@dimen/bft" android:layout_height="@dimen/bft" android:layout_marginTop="41.0dip" android:layout_marginEnd="28.0dip">
+        <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/v9_thumbnail_layout" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:n6="@color/transparent" app:n_="0.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/v9_thumbnail_image" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/eoh" />
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_selfie_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c4h" android:layout_marginStart="@dimen/c4g" android:layout_marginEnd="@dimen/c4g">
+        <ImageView android:gravity="center_vertical" android:id="@id/iv_logo_xiaomi" android:layout_width="@dimen/c4f" android:layout_height="@dimen/c4e" android:contentDescription="@null" />
+        <LinearLayout android:gravity="end|center" android:layout_gravity="end" android:orientation="horizontal" android:id="@id/ll_desc_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c4c">
+            <TextView android:textSize="@dimen/c4d" android:textColor="@color/white_alpha_60" android:gravity="center" android:id="@id/selfie_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ges" />
+            <ImageView android:id="@id/iv_logo_leica" android:layout_width="@dimen/c4b" android:layout_height="@dimen/c4b" android:src="@drawable/ic_logo_leica" android:contentDescription="@null" android:layout_marginStart="@dimen/c4a" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

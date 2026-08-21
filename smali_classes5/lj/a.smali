@@ -1,0 +1,153 @@
+.class public abstract Llj/a;
+.super Lio/reactivex/q;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Llj/a$a;,
+        Llj/a$b;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T::",
+        "Llj/a$b;",
+        "U:",
+        "Llj/a$a<",
+        "TT;>;>",
+        "Lio/reactivex/q<",
+        "TT;>;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final a:Lwm/l;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lwm/l<",
+            "TT;",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Lwm/l;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lwm/l<",
+            "-TT;",
+            "Ljava/lang/Boolean;",
+            ">;)V"
+        }
+    .end annotation
+
+    invoke-direct {p0}, Lio/reactivex/q;-><init>()V
+
+    iput-object p1, p0, Llj/a;->a:Lwm/l;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final l(Lio/reactivex/u;)V
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lio/reactivex/u<",
+            "-TT;>;)V"
+        }
+    .end annotation
+
+    iget-object v0, p0, Llj/a;->a:Lwm/l;
+
+    invoke-virtual {p0, p1, v0}, Llj/a;->p(Lio/reactivex/u;Lwm/l;)Llj/a$a;
+
+    move-result-object v0
+
+    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
+
+    move-result-object v1
+
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+
+    move-result-object v2
+
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/l;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-interface {p1, v0}, Lio/reactivex/u;->onSubscribe(Lio/reactivex/disposables/b;)V
+
+    invoke-virtual {p0, v0}, Llj/a;->q(Llj/a$a;)V
+
+    sget-object p0, Lhm/y;->a:Lhm/y;
+
+    goto :goto_0
+
+    :cond_0
+    sget-object p0, Lio/reactivex/internal/functions/a;->b:Lio/reactivex/internal/functions/a$f;
+
+    new-instance v0, Lio/reactivex/disposables/c;
+
+    invoke-direct {v0, p0}, Ljava/util/concurrent/atomic/AtomicReference;-><init>(Ljava/lang/Object;)V
+
+    invoke-interface {p1, v0}, Lio/reactivex/u;->onSubscribe(Lio/reactivex/disposables/b;)V
+
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Thread;->getName()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "Expected to be called on the main thread but was "
+
+    invoke-static {v1, v0}, LB/c;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {p0, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    invoke-interface {p1, p0}, Lio/reactivex/u;->onError(Ljava/lang/Throwable;)V
+
+    :goto_0
+    return-void
+.end method
+
+.method public abstract p(Lio/reactivex/u;Lwm/l;)Llj/a$a;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lio/reactivex/u<",
+            "-TT;>;",
+            "Lwm/l<",
+            "-TT;",
+            "Ljava/lang/Boolean;",
+            ">;)TU;"
+        }
+    .end annotation
+.end method
+
+.method public abstract q(Llj/a$a;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TU;)V"
+        }
+    .end annotation
+.end method

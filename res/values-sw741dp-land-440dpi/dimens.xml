@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bmi">5.0dip</dimen>
+    <dimen name="cxo">65.0dip</dimen>
+    <dimen name="cxq">112.0dip</dimen>
+    <dimen name="cz5">1034.0dip</dimen>
+    <dimen name="cz9">44.0dip</dimen>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bcu">0.0dip</dimen>
+    <dimen name="beb">21.73999dip</dimen>
+    <dimen name="bec">25.0dip</dimen>
+    <dimen name="blm">150.0dip</dimen>
+    <dimen name="cao">150.0dip</dimen>
+    <dimen name="cax">33.25dip</dimen>
+    <dimen name="cpi">15.409973sp</dimen>
+    <dimen name="cxm">143.06dip</dimen>
+    <dimen name="cxo">80.19998dip</dimen>
+    <dimen name="cxq">136.04999dip</dimen>
+    <dimen name="cyd">163.53998dip</dimen>
+    <dimen name="cym">100.0dip</dimen>
+    <dimen name="cz5">1114.1797dip</dimen>
+    <dimen name="czp">-0.59000003dip</dimen>
+    <dimen name="czz">170.0dip</dimen>
+    <dimen name="d01">163.53998dip</dimen>
+</resources>

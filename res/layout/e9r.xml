@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:focusable="false" android:layout_width="fill_parent" android:layout_height="@dimen/djf"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.camera.ui.SlideSwitchButton android:id="@id/top_config_ratio_cv" android:layout_width="fill_parent" android:layout_height="@dimen/dje" android:layout_marginStart="@dimen/djh" android:layout_marginEnd="@dimen/djh" app:pl="@dimen/djj" app:b1u="@dimen/djk" />
+</LinearLayout>

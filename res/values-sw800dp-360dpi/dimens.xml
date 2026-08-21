@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="b_j">40.0dip</dimen>
+    <dimen name="bed">200.0dip</dimen>
+    <dimen name="bp7">25.0dip</dimen>
+    <dimen name="c4u">27.289978dip</dimen>
+    <dimen name="cz5">660.0dip</dimen>
+    <dimen name="czk">35.0dip</dimen>
+    <dimen name="czl">100.0dip</dimen>
+    <dimen name="czq">20.0dip</dimen>
+    <dimen name="czr">84.66998dip</dimen>
+    <dimen name="czw">78.0dip</dimen>
+    <dimen name="d7q">56.0dip</dimen>
+    <dimen name="d7r">56.0dip</dimen>
+</resources>

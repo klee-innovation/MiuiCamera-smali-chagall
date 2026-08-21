@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/di5" android:paddingVertical="@dimen/di6"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/toast_icon" android:visibility="gone" android:layout_width="@dimen/di4" android:layout_height="@dimen/di4" android:contentDescription="@null" android:layout_marginEnd="@dimen/di3" app:a9h="parent" app:a9o="@id/toast_message" app:a_7="parent" app:a_a="parent" />
+    <TextView android:textSize="@dimen/dia" android:textColor="@color/toast_view_text_color_day_night" android:ellipsize="end" android:gravity="center" android:id="@id/toast_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:lineHeight="@dimen/di7" app:a9h="parent" app:a9n="parent" app:a_6="@id/toast_icon" app:a_a="parent" app:a_g="@dimen/di8" app:a_h="@dimen/di_" />
+</androidx.constraintlayout.widget.ConstraintLayout>

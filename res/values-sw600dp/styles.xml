@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="h9t" parent="@style/gwl">
+        <item name="ayj">center</item>
+        <item name="ayw">fixed</item>
+    </style>
+</resources>

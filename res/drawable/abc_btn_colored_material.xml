@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/b8k" android:insetRight="@dimen/b8k" android:insetTop="@dimen/b8l" android:insetBottom="@dimen/b8l"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ripple android:color="?android:colorControlHighlight">
+        <item>
+            <selector>
+                <item android:state_enabled="false">
+                    <shape android:shape="rectangle">
+                        <corners android:radius="@dimen/b8q" />
+                        <solid android:color="?android:colorButtonNormal" />
+                        <padding android:left="@dimen/b8m" android:top="@dimen/b8n" android:right="@dimen/b8m" android:bottom="@dimen/b8n" />
+                    </shape>
+                </item>
+                <item>
+                    <shape android:shape="rectangle">
+                        <corners android:radius="@dimen/b8q" />
+                        <solid android:color="?android:colorAccent" />
+                        <padding android:left="@dimen/b8m" android:top="@dimen/b8n" android:right="@dimen/b8m" android:bottom="@dimen/b8n" />
+                    </shape>
+                </item>
+            </selector>
+        </item>
+    </ripple>
+</inset>

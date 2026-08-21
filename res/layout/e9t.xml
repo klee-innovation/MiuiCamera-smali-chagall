@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/extra_tootle_layout" android:layout_width="@dimen/dlf" android:layout_height="@dimen/dl5"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:focusable="false" android:layout_width="fill_parent" android:layout_height="@dimen/dl5" android:layout_centerInParent="true">
+        <FrameLayout android:id="@id/extra_tootle_item_layout" android:focusable="false" android:layout_width="wrap_content" android:layout_height="@dimen/dl8" android:minWidth="@dimen/dl8" android:paddingStart="@dimen/dl7" android:paddingEnd="@dimen/dl7">
+            <com.android.camera.ui.ColorCircleBackgroundView android:id="@id/extra_tootle_item_image_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/dl8" android:scaleType="center" android:minWidth="@dimen/dl8" />
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/extra_tootle_item_image" android:layout_width="wrap_content" android:layout_height="@dimen/dl8" android:scaleType="centerInside" android:minWidth="@dimen/dl8" />
+        </FrameLayout>
+        <RelativeLayout android:id="@id/rl_item_top_config_description" android:paddingBottom="@dimen/dlb" android:focusable="false" android:layout_width="@dimen/dle" android:layout_height="wrap_content">
+            <com.android.camera.ui.AdaptiveTextView android:textSize="@dimen/dld" android:textColor="#bfffffff" android:gravity="center|top" android:id="@id/extra_tootle_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/iv_tag_config_layout" android:paddingLeft="@dimen/dl7" android:paddingTop="@dimen/dl7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:importantForAccessibility="no">
+        <ImageView android:id="@id/iv_tag_config" android:background="@drawable/vector_drawable_right_angle_timer_burst_mm" android:visibility="gone" android:layout_width="@dimen/dlc" android:layout_height="@dimen/dlc" android:layout_marginRight="@dimen/dlb" android:layout_marginBottom="@dimen/dlb" android:scaleType="centerCrop" />
+    </FrameLayout>
+</RelativeLayout>

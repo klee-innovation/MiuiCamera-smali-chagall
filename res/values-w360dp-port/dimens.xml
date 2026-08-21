@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ct3">4.0dip</dimen>
+    <dimen name="ct5">18.0dip</dimen>
+    <dimen name="ct6">40.0dip</dimen>
+    <dimen name="ct7">2.0dip</dimen>
+    <dimen name="ct9">2.0dip</dimen>
+    <dimen name="ct_">40.0dip</dimen>
+    <dimen name="cta">40.0dip</dimen>
+    <dimen name="ctm">4.0dip</dimen>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ej3">
+        <item quantity="other">Difokus. %d wajah dikesan</item>
+    </plurals>
+    <plurals name="ej4">
+        <item quantity="other">%d gambar dalam tangkapan berganda</item>
+    </plurals>
+    <plurals name="ej5">
+        <item quantity="other">Selang: %d saat</item>
+    </plurals>
+    <plurals name="ej6">
+        <item quantity="other">Tempoh: %d minit</item>
+    </plurals>
+    <plurals name="ej7">
+        <item quantity="other">Kelajuan: %dX</item>
+    </plurals>
+    <plurals name="ej8">
+        <item quantity="other">Durasi: %d saat</item>
+    </plurals>
+    <plurals name="ej9">
+        <item quantity="other">Memasukkan %d karakter.</item>
+    </plurals>
+    <plurals name="ej_">
+        <item quantity="other">Masukkan sehingga %d karakter.</item>
+    </plurals>
+    <plurals name="eja">
+        <item quantity="other">Anda boleh menyambung sehingga %d kamera ke rangkaian yang sama</item>
+    </plurals>
+    <plurals name="ejb">
+        <item quantity="other">Anda boleh menyambung sehingga %d monitor ke rangkaian yang sama</item>
+    </plurals>
+    <plurals name="ejc">
+        <item quantity="other">Anda boleh mencipta sehingga %d klon dalam satu masa.</item>
+    </plurals>
+    <plurals name="ejd">
+        <item quantity="other">&lt;Data>Tidak dapat menyambung ke kamera.&lt;br>Apl ini akan ditutup dalam &lt;font color=#FFCE16>&lt;b>%1$d saat &lt;/b>&lt;/font>. Selepas ini, tunggu satu atau dua minit dan cuba lagi.&lt;/Data></item>
+    </plurals>
+    <plurals name="eje">
+        <item quantity="other">&lt;Data>Peranti ini terlalu panas sekarang.&lt;br>Apl ini akan ditutup dalam &lt;font color=#FFCE16>&lt;b>%1$d saat&lt;/b>&lt;/font>. Perkembangan semasa disimpan secara automatik.&lt;/Data></item>
+    </plurals>
+    <plurals name="ejf">
+        <item quantity="other">&lt;Data>Versi Kamera yang anda gunakan tidak serasi dengan model peranti anda.&lt;br>Apl akan ditutup dalam &lt;font color=#FFCE16>&lt;b>%1$d saat&lt;/b>&lt;/font>. Nyahpasang kemas kini Kamera dan cuba lagi.&lt;/Data></item>
+    </plurals>
+    <plurals name="ejg">
+        <item quantity="other">%1$d min</item>
+    </plurals>
+    <plurals name="ejh">
+        <item quantity="other">%1$d saat</item>
+    </plurals>
+    <plurals name="eji">
+        <item quantity="other">Pemasa dihidupkan (%1$d saat). Gambar akan dipindahkan ke peranti ini.</item>
+    </plurals>
+    <plurals name="ejj">
+        <item quantity="other">Padam %1$d draf?</item>
+    </plurals>
+    <plurals name="ejk">
+        <item quantity="other">Tambahkan sehingga %d pratetap</item>
+    </plurals>
+    <plurals name="ejl">
+        <item quantity="other">Padam %d pratetap sekarang?</item>
+    </plurals>
+    <plurals name="ejm">
+        <item quantity="other">%d pratetap dipadamkan</item>
+    </plurals>
+    <plurals name="ejn">
+        <item quantity="other">%d pratetap diimport</item>
+    </plurals>
+    <plurals name="ejp">
+        <item quantity="other">%ds</item>
+    </plurals>
+    <plurals name="ejq">
+        <item quantity="other">%1$s min</item>
+    </plurals>
+    <plurals name="ejr">
+        <item quantity="other">Rakam %d saat</item>
+    </plurals>
+    <plurals name="ejs">
+        <item quantity="other">Anda boleh merakam video beku masa sehingga %d subjek.</item>
+    </plurals>
+    <plurals name="ejt">
+        <item quantity="other">%1$s gambar</item>
+    </plurals>
+</resources>

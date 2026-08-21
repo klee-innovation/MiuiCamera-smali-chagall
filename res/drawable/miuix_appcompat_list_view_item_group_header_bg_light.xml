@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:paddingLeft="@dimen/ci5" android:paddingRight="@dimen/ci6"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/miuix_appcompat_list_item_bg_color_light" />
+            <size android:height="@dimen/chz" />
+        </shape>
+    </item>
+    <item android:gravity="bottom" android:drawable="@drawable/miuix_appcompat_divider_line_light" android:left="@dimen/ci5" />
+    <item android:gravity="bottom|center|left">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/miuix_appcompat_list_item_bg_color_light" />
+            <size android:height="1.0px" android:width="@dimen/ci5" />
+        </shape>
+    </item>
+</layer-list>

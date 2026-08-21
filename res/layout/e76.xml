@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.nestedheader.widget.NestedScrollingLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:ape="@id/music_recycler_view"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/c2e" android:gravity="start|center" android:id="@id/secondary_title" android:layout_width="fill_parent" android:layout_height="@dimen/c2c" android:layout_marginHorizontal="@dimen/c2d" />
+    <miuix.recyclerview.widget.RecyclerView android:id="@id/music_recycler_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c2c" />
+    <LinearLayout android:gravity="center" android:id="@id/music_updating_layout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="@dimen/cwf" android:layout_height="@dimen/cwf" android:indeterminateDrawable="@drawable/live_music_loading" style="?android:progressBarStyleLarge" />
+        <TextView android:textColor="@color/day_night_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fjp" android:alpha="0.6" android:layout_marginStart="@dimen/cwu" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/music_network_exception" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:background="@drawable/ic_live_music_network_exception" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/cwk" android:textColor="@color/day_night_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cwl" android:text="@string/fj1" android:alpha="0.6" />
+    </LinearLayout>
+</miuix.nestedheader.widget.NestedScrollingLayout>

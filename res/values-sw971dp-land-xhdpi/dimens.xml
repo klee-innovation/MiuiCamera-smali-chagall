@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="beb">0.0dip</dimen>
+    <dimen name="bec">0.0dip</dimen>
+    <dimen name="bmi">6.0dip</dimen>
+    <dimen name="bmn">419.0dip</dimen>
+    <dimen name="cxo">79.0dip</dimen>
+    <dimen name="cxq">137.0dip</dimen>
+    <dimen name="cyl">35.0dip</dimen>
+    <dimen name="cz5">1378.0dip</dimen>
+    <dimen name="cz9">83.0dip</dimen>
+</resources>

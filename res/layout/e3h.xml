@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/bk5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/bk6" android:textColor="@android:color/white" android:id="@id/guide_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fyk" />
+    <TextView android:textSize="@dimen/bk2" android:textColor="@color/white_alpha_60" android:id="@id/guide_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bk1" />
+    <androidx.cardview.widget.CardView android:id="@id/video_cardview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bk9" app:n_="0.0dip">
+        <com.android.camera.ui.TextureVideoView android:id="@id/video_view" android:layout_width="@dimen/bk_" android:layout_height="@dimen/bk8" />
+    </androidx.cardview.widget.CardView>
+    <ImageView android:id="@id/close_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bk3" android:contentDescription="@string/ep1" />
+</LinearLayout>

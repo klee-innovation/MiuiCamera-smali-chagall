@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.fragment.videoprompter.MainScreenVideoPrompterAdjustLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/alpha90_black" android:paddingBottom="0.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/dn8"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/rotateLayout" android:layout_width="fill_parent" android:layout_height="@dimen/c4n" android:layout_marginTop="@dimen/c4p" android:layout_marginHorizontal="@dimen/c4o">
+        <LinearLayout android:orientation="vertical" android:id="@id/adjust_text_size_container" android:layout_width="fill_parent" android:layout_height="@dimen/c4k">
+            <TextView android:textSize="@dimen/dng" android:textColor="@color/white" android:id="@id/adjust_text_size_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gp6" />
+            <com.android.camera.ui.seekbar.TimerBurstSeekBar android:id="@id/adjust_text_size_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c4l" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/adjust_text_speed_container" android:layout_width="fill_parent" android:layout_height="@dimen/c4k" android:layout_marginTop="@dimen/c4m">
+            <TextView android:textSize="@dimen/dng" android:textColor="@color/white" android:id="@id/adjust_text_speed_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gp7" />
+            <com.android.camera.ui.seekbar.TimerBurstSeekBar android:id="@id/adjust_text_speed_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/c4l" />
+        </LinearLayout>
+    </LinearLayout>
+</com.android.camera.fragment.videoprompter.MainScreenVideoPrompterAdjustLayout>

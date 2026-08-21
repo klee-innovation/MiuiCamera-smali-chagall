@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="h9y" parent="@style/h6a">
+        <item name="android:textAppearance">@style/gym</item>
+        <item name="android:textColor">?xb</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@string/fqi</item>
+        <item name="android:breakStrategy">balanced</item>
+    </style>
+</resources>

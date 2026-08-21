@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:start="@dimen/ckn" android:end="@dimen/ckn">
+        <miuix.smooth.SmoothContainerDrawable android:radius="@dimen/cl5">
+            <child>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/miuix_appcompat_transparent" />
+                </shape>
+            </child>
+        </miuix.smooth.SmoothContainerDrawable>
+    </item>
+</layer-list>

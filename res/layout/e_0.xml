@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.fragment.videoprompter.VideoPrompterAdjustLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/alpha90_black" android:paddingBottom="@dimen/bog" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/dn8"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/rotateLayout" android:layout_width="fill_parent" android:layout_height="@dimen/dor" android:layout_marginTop="@dimen/dou">
+        <LinearLayout android:orientation="vertical" android:id="@id/adjust_text_size_container" android:layout_width="fill_parent" android:layout_height="@dimen/dnf">
+            <TextView android:textSize="@dimen/dng" android:textColor="@color/white" android:id="@id/adjust_text_size_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gp6" android:paddingStart="@dimen/dot" android:paddingEnd="@dimen/dot" />
+            <com.android.camera.ui.seekbar.TimerBurstSeekBar android:id="@id/adjust_text_size_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dnd" android:paddingStart="@dimen/dot" android:paddingEnd="@dimen/dot" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/adjust_text_speed_container" android:layout_width="fill_parent" android:layout_height="@dimen/dnj" android:layout_marginTop="@dimen/dnk">
+            <TextView android:textSize="@dimen/dng" android:textColor="@color/white" android:id="@id/adjust_text_speed_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gp7" android:paddingStart="@dimen/dot" android:paddingEnd="@dimen/dot" />
+            <com.android.camera.ui.seekbar.TimerBurstSeekBar android:id="@id/adjust_text_speed_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dnh" android:paddingStart="@dimen/dot" android:paddingEnd="@dimen/dot" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/adjust_switch_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dnm" android:paddingStart="@dimen/dot" android:paddingEnd="@dimen/dot">
+            <TextView android:textSize="@dimen/dng" android:textColor="@color/white" android:id="@id/switch_description_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/g_x" android:layout_weight="1.0" />
+            <Switch android:id="@id/adjust_second_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:thumb="@drawable/switch_thumb" android:track="@drawable/switch_track" android:showText="false" />
+        </LinearLayout>
+    </LinearLayout>
+</com.android.camera.fragment.videoprompter.VideoPrompterAdjustLayout>

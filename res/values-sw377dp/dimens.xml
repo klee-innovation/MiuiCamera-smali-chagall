@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="boq">30.0dip</dimen>
+    <dimen name="bsu">12.0dip</dimen>
+    <dimen name="c0k">165.22dip</dimen>
+    <dimen name="c0l">380.0dip</dimen>
+</resources>

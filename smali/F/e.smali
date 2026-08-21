@@ -1,0 +1,21 @@
+.class public final LF/e;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final call_notification_answer_action:I = 0x7f1402f3
+
+.field public static final call_notification_answer_video_action:I = 0x7f1402f4
+
+.field public static final call_notification_decline_action:I = 0x7f1402f5
+
+.field public static final call_notification_hang_up_action:I = 0x7f1402f6
+
+.field public static final call_notification_incoming_text:I = 0x7f1402f7
+
+.field public static final call_notification_ongoing_text:I = 0x7f1402f8
+
+.field public static final call_notification_screening_text:I = 0x7f1402f9
+
+.field public static final status_bar_notification_info_overflow:I = 0x7f1411a8

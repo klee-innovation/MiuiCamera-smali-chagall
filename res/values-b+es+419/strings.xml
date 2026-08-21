@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exv">Expandir hasta la mitad</string>
+    <string name="f1g">Caracteres ingresados: %1$d de %2$d</string>
+    <string name="f1h">Se excedió en %1$d el límite de caracteres de %2$d</string>
+    <string name="f4e">Borrar texto</string>
+    <string name="fci">Error</string>
+    <string name="fd1">Mostrar menú desplegable</string>
+    <string name="fhc">Pestaña</string>
+    <string name="flq">Selecciona a.m. o p.m.</string>
+    <string name="flz">a.m.</string>
+    <string name="fm0">p.m.</string>
+    <string name="ft9">Notificación nueva</string>
+    <string name="fth">Marcada</string>
+    <string name="fti">Verificado parcialmente</string>
+    <string name="ftj">Sin marcar</string>
+    <string name="ftk">Quitar %1$s</string>
+    <string name="ftl">Más de %1$d notificaciones nuevas</string>
+    <string name="ftn">Cambiar al mes siguiente</string>
+    <string name="fto">Cambiar al mes anterior</string>
+    <string name="ftp">Cancelar</string>
+    <string name="ftq">Aceptar</string>
+    <string name="ftr">%1$s</string>
+    <string name="fts">Fecha de finalización: %1$s</string>
+    <string name="ftt">Navegar al año actual (%1$d)</string>
+    <string name="ftu">Navegar al año %1$d</string>
+    <string name="ftv">Guardar</string>
+    <string name="ftw">Fecha de inicio: %1$s</string>
+    <string name="ftx">Hoy, %1$s</string>
+    <string name="fty">Cambiar al modo de entrada de calendario</string>
+    <string name="ftz">Presiona para cambiar a la vista de Calendario</string>
+    <string name="fu0">Cambiar al modo de entrada de texto</string>
+    <string name="fu1">Presiona para cambiar a la vista de año</string>
+    <string name="fvv">Mostrar contraseña</string>
+    <string name="gf2">Hoja lateral</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/bzt" card_view:n6="@color/cai_input_cardview_bg" card_view:n9="16.0dip" card_view:n_="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="@color/cai_input_item_text" android:ellipsize="end" android:id="@id/input_edit_history_item" android:paddingLeft="@dimen/bzw" android:paddingTop="@dimen/bzz" android:paddingRight="@dimen/bzw" android:paddingBottom="@dimen/bzz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/bzt" android:maxLines="1" android:singleLine="true" />
+</androidx.cardview.widget.CardView>

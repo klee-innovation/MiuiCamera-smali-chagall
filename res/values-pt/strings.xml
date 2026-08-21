@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="eju">Navegar para a página inicial</string>
+    <string name="ejv">Navegar para cima</string>
+    <string name="ejw">Concluído</string>
+    <string name="ejx">DESATIVADO</string>
+    <string name="ejy">ATIVADO</string>
+    <string name="ejz">Alt+</string>
+    <string name="ek0">Ctrl+</string>
+    <string name="ek1">delete</string>
+    <string name="ek2">enter</string>
+    <string name="ek3">Function+</string>
+    <string name="ek4">Meta+</string>
+    <string name="ek5">Shift+</string>
+    <string name="ek6">espaço</string>
+    <string name="ek7">Sym+</string>
+    <string name="ek8">Menu+</string>
+    <string name="ek9">Pesquisar…</string>
+    <string name="ek_">Limpar consulta</string>
+    <string name="eka">Pesquisar</string>
+    <string name="ekb">Enviar consulta</string>
+    <string name="ekc">Pesquisa por voz</string>
+    <string name="ekd">Recolher</string>
+    <string name="ey3">Desligar</string>
+    <string name="f8x">Copiar</string>
+    <string name="fcl">%1$s, %2$s</string>
+    <string name="fcm">%1$.2f Mbps</string>
+    <string name="fcn">Mono</string>
+    <string name="fco">%1$d × %2$d</string>
+    <string name="fcp">Alternativa</string>
+    <string name="fcq">CC</string>
+    <string name="fcr">Comentários</string>
+    <string name="fcs">Complementar</string>
+    <string name="fct">Automática</string>
+    <string name="fcu">Nenhuma</string>
+    <string name="fcv">Estéreo</string>
+    <string name="fcw">Sistema surround</string>
+    <string name="fcx">Sistema surround 5.1</string>
+    <string name="fcy">Sistema surround 7.1</string>
+    <string name="fcz">Desconhecido</string>
+    <string name="fd0">Avançado</string>
+    <string name="fui">Não definido</string>
+    <string name="gdd">\"%1$s\" copiado para a área de transferência.</string>
+    <string name="ght">%1$s, %2$s</string>
+    <string name="gnw">DESATIVADO</string>
+    <string name="gnx">ATIVADO</string>
+</resources>
